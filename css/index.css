@@ -1,0 +1,25 @@
+*{
+    transition: all 1s;
+}
+.container:hover .mouth-wrap .left{
+    border-radius: 0% 40% 50% 50%;
+}
+.container:hover .mouth-wrap .right{
+    border-radius: 40% 0% 50% 50%;
+}
+.container:hover .eye-bottom{
+    margin-top: 30px;
+}
+.container:hover .eye-core{
+    width: 40px;
+    margin-left: -20px;
+}
+.container:hover .face-red{
+    opacity: 0.8;
+}
+.container:hover .ear-wrap .left{
+    transform: rotate(-20deg);
+}
+.container:hover .ear-wrap .right{
+    transform: rotate(20deg);
+}
